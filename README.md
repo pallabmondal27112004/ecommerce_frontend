@@ -1,6 +1,6 @@
 # 🛒 E-Commerce Application  
 
-![E-Commerce App](<img width="5812" height="3255" alt="Image" src="https://github.com/user-attachments/assets/d041e6c0-0459-4b62-99d6-69bd37a7220d" />)  
+![E-Commerce App]("https://github.com/user-attachments/assets/d041e6c0-0459-4b62-99d6-69bd37a7220d" )  
 
 ## 📌 Overview  
 This is a **full-stack eCommerce application** built using:  
