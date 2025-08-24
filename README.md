@@ -51,10 +51,10 @@ The application supports **product listing, cart management, checkout process, u
 
 
 ### **Login page**
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/41f8521f-f9a1-4545-9340-784a685a6371" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/bfb0997b-fbf6-47c3-a316-c265ba30612e" />
 
 ### **signup Page**
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/bfb0997b-fbf6-47c3-a316-c265ba30612e" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/41f8521f-f9a1-4545-9340-784a685a6371" />
 
 
 
