@@ -1,0 +1,290 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+.FILTER_ITEM {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+/ * Payment Gateway Styles */ .payment-method-card {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.payment-method-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.payment-method-card.selected {
+  border-color: #0d6efd !important;
+  background-color: rgba(13, 110, 253, 0.1) !important;
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.divHover {
+  transition: all 0.3s ease;
+}
+
+.divHover:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Enhanced Design Improvements */
+
+/* Hover effects */
+.hover-shadow {
+  transition: all 0.3s ease;
+}
+
+.hover-shadow:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Button enhancements */
+.btn {
+  transition: all 0.3s ease;
+  border-radius: 8px !important;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Card enhancements */
+.card {
+  border-radius: 16px !important;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.rounded-4 {
+  border-radius: 1rem !important;
+}
+
+/* Gradient backgrounds */
+.bg-gradient-primary {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+}
+
+.bg-gradient-success {
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%) !important;
+}
+
+/* Loading animations */
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.loading-pulse {
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+/* Responsive text */
+@media (max-width: 768px) {
+  .display-6 {
+    font-size: 1.75rem !important;
+  }
+
+  .fs-4 {
+    font-size: 1.1rem !important;
+  }
+}
+
+/* Enhanced spacing */
+.gap-4 {
+  gap: 1.5rem !important;
+}
+
+/* Sticky positioning */
+.sticky-top {
+  position: sticky;
+  top: 2rem;
+  z-index: 1020;
+}
+
+/* Order page improvements */
+.main-orderPage-div {
+  min-height: 100vh;
+}
+
+.leftSide {
+  max-width: 450px;
+}
+
+.rightSide-orderPage {
+  max-width: 600px;
+}
+
+.Product-table-orderPage {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.reviewHeader {
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+/* Enhanced responsive design */
+@media (max-width: 768px) {
+  .main-orderPage-div {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .leftSide {
+    position: static !important;
+    width: 100% !important;
+    max-width: none;
+  }
+
+  .rightSide-orderPage {
+    padding-left: 0 !important;
+    width: 100% !important;
+    max-width: none;
+  }
+
+  .container-fluid {
+    padding: 1rem !important;
+  }
+
+  .card-body {
+    padding: 1.5rem !important;
+  }
+
+  .btn {
+    padding: 0.75rem 1rem !important;
+    font-size: 0.9rem !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .display-6 {
+    font-size: 1.5rem !important;
+  }
+
+  .card-body {
+    padding: 1rem !important;
+  }
+
+  .gap-4 {
+    gap: 1rem !important;
+  }
+}
+
+/* Payment Gateway enhancements */
+.payment-method-card {
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border-radius: 12px !important;
+}
+
+.payment-method-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.payment-method-card.selected {
+  border-color: #0d6efd !important;
+  background-color: rgba(13, 110, 253, 0.1) !important;
+  transform: scale(1.02);
+}
+
+/* Enhanced animations */
+.animate__animated {
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+}
+
+.animate__fadeIn {
+  animation-name: fadeIn;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

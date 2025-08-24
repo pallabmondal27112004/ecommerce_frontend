@@ -1,0 +1,353 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#root {
+max-width: 2000px;
+background: black;
+padding: 10px 150px;
+}
+#dropdown-basic {
+    opacity:  0;
+}
+.custom-dropdown {
+    left: auto !important; /* Reset default positioning */
+    right: 70% !important; /* Move dropdown to the left */
+    transform: translateX(15%); /* Fine-tune the position */
+}
+.itemCard{
+    transition: all 1s;
+}
+.itemCard:hover{
+    transform: translateY(-30%);
+}
+.image{
+    transition: all 1s;
+
+}
+.image:hover{
+    transform: scale(110%);
+    
+}
+.category::-webkit-scrollbar{
+    display: none;
+}
+.product-search-input {
+    font-family: "SF Pro";
+    /* max-width: 190px; */
+    padding: 0.875rem;
+    font-size: 1rem;
+    border: 1.5px solid #000;
+    border-radius: 0.5rem;
+    box-shadow: 2.5px 3px 0 #000;
+    outline: none;
+    transition: ease 0.25s;
+    width: 10rem;
+  }
+  
+  .product-search-input:focus {
+    box-shadow: 5.5px 7px 0 black;
+  }
+  #nevbar .responsive-icon{
+    margin-top: 5px;
+}
+#nevbar .responsive-logo{
+    font-size: .9rem;
+    padding-right: 5px;
+    margin-top: 5px;
+}
+.link-115 {
+    color: block;
+    font-size: 20px;
+    text-decoration: none;
+    /* padding: 10px 20px; */
+    margin: 0 5px;
+    position: relative;
+  }
+  
+  /* .link-115::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #040cf4, #067f84); /* Tweak the color if needed 
+    border-radius: 0;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .link-115:hover::before {
+    width: 100%;
+    border-radius: 50%;
+  } */
+
+  /* ====================flat 50% or more discount ========================== */
+ #discountCard .discount-card {
+    background-image: linear-gradient(to top, #cc208e 0%, #6713d2 100%);
+    background-color: red;
+    color: white;
+    /* border-radius: 15px; */
+    padding: 5px;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    width: 450px;
+}
+#discountCard{
+    width: 450px;
+    margin: 0;
+    padding: 0;
+}
+
+.img-fluid{
+    transition: all 1s;
+}
+
+  .img-fluid:hover{
+    transform: scale(160%);
+}
+#discountCard .discount-text {
+    max-width: 50%;
+}
+#discountCard .discount-text h2 {
+    font-weight: bold;
+}
+  
+@media (max-width: 600px) {
+    #nevbar .responsive-text{
+display: none;
+    }
+    .headerinput{
+        display: none !important;
+    }
+    #nevbar{
+        gap: 1px !important;
+    }
+   
+    .responsive-caresole{
+        height: 200px !important;
+    }
+    .responsive-image-div{
+        height: 200px !important;
+    }
+    .responsive-slider{
+        position: relative !important;
+    }
+    .responsive-slider .aside{
+        position: absolute;
+        width: 60% !important;
+        left: -60%;
+        transition: all .7s;
+    }
+    #asideSilde{
+        left: 0%;
+        z-index: 100;
+
+    }
+    .products{
+        width: 100vw !important;
+        gap: 0rem !important;
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+    .responsive-productItem{
+        width: 200px !important;
+        margin: 0px !important;
+    }
+    .responsive-productItem .image{
+        height: 250px !important;
+    }
+    .responsive-productItem .price{
+        font-size: 1rem !important;
+    }
+    .responsive-productItem  .text-secondary{
+        font-size: .6rem !important;
+    }
+
+    .categoryImage{
+        min-width: 50px !important;
+        max-width: 50px !important;
+        height: 50px !important;
+    }
+    .categoryText{
+        
+        font-size: .6rem;
+    }
+    .main-orderPage-div{
+        margin: 0rem !important;
+    }
+    .rightSide-orderPage{ 
+        margin: 0px !important;
+        /* background-color: red !important; */
+        padding: 0 0 0 0!important;
+        /* width: 100% !important; */
+      }
+      .leftSide{
+        position: static !important;
+        /* display: block !important; */
+        top: 0px !important;
+      }
+     .myprofilepage{
+        padding: 0px !important ;
+        margin: 0px !important;
+        width: 100% !important;
+        /* background: red !important; */
+     }
+
+     .myProfile{
+        position: absolute;
+        width: 300px !important;
+        background: red !important;
+        left: -60% ;
+        transition: all .7s;
+     }
+     .myProfileHover{
+        left: 0%;
+        /* width: 300px !important; */
+        z-index: 100;
+
+     }
+      .wishList{
+        padding: 0px !important;
+        padding-left:0px !important ;
+        margin: 0px !important;
+        min-width: 95% !important;
+      }
+      .wishList  p, h4 {
+        margin: 0px !important;
+        padding: 0px !important;
+        font-size: .8rem;
+      }
+      .wishList img{
+        width: 100% !important;
+        padding-right: 10px;
+      }
+      .wishList .heading{
+        margin: 0px !important;
+        padding-left: .6rem !important;
+      }
+
+      .footer{
+        flex-wrap: wrap !important;
+      }
+      .footer > div{
+        width: 50% !important;
+        padding:0rem 1.3rem !important;
+      }
+      .footer p{
+        margin: 0px !important;
+        padding:  0px !important;
+      }
+      .myprofileDrawer{
+        opacity: 1 !important;
+      }
+  }
+
+
+  /* =================regisration-responsive=================== */
+  @media (max-width: 600px) {
+  .register-container{
+    margin: 1rem !important;
+    flex-wrap: wrap !important;
+  }
+  .img{
+    width: 200px;
+  }
+  .img2{
+    width: 300px;
+  }
+  .login-container{
+    margin: 1rem !important;
+    flex-wrap: wrap !important;
+  }
+  .h2{
+    font-size: 2rem !important;
+  }
+ 
+  
+}
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ============myorderpage============= */
+.divHover{
+    transition: all .5s;
+}
+.divHover:hover{
+    box-shadow:.5px .5px 2px black, -.5px -.5px 2px black;
+}
+/* ==============review heading hover effect ==================== */
+.reviewHeader {
+  color: #ffffff;
+  font-size: 1.5rem;
+  text-decoration: none;
+  padding: 10px 20px;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.reviewHeader::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 4px; /* make the line thicker */
+  width: 100%;
+  background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #8b00ff); /* rainbow gradient */
+  background-size: 200% auto;
+  transition: all .5s;
+  transform: translateX(-100%);
+}
+
+.reviewHeader:hover::after {
+  transform: translateX(0%);
+  animation: gradient-89 3s linear infinite;
+}
+
+@keyframes gradient-89 {
+  0% { background-position: 100% 0%; }
+  50% { background-position: 0% 0%; }
+  100% { background-position: 100% 0%; }
+}
+.fontHeading{
+
+  
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  .usernamefontfamily {
+    font-family: "Playwrite CU", cursive;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+  }
+  .FILTER_ITEM {
+    /* font-family: "Raleway", sans-serif; */
+    font-family: "Playwrite AU SA", 'cursive';
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+  }
