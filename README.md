@@ -67,8 +67,9 @@ The application supports **product listing, cart management, checkout process, u
 git clone https://github.com/your-username/ecommerce-app.git
 cd ecommerce-app
 
-## 📦 website link  
 
-https://earnest-chaja-c7b7f1.netlify.app/
+## 📦 Website Link  
+[Visit the Website](https://earnest-chaja-c7b7f1.netlify.app/)
+
 
 
