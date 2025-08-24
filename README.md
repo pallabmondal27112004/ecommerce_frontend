@@ -48,16 +48,15 @@ The application supports **product listing, cart management, checkout process, u
 ---
 
 ## 📸 Screenshots  
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/41f8521f-f9a1-4545-9340-784a685a6371" />
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/bfb0997b-fbf6-47c3-a316-c265ba30612e" />
+
+
 ### **Login page**
-![Homepage Screenshot]([https://via.placeholder.com/800x400.png?text=Homepage](https://github.com/user-attachments/assets/41f8521f-f9a1-4545-9340-784a685a6371))
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/41f8521f-f9a1-4545-9340-784a685a6371" />
 
 ### **signup Page**
-![Product Page Screenshot]([https://via.placeholder.com/800x400.png?text=Product+Page](https://github.com/user-attachments/assets/bfb0997b-fbf6-47c3-a316-c265ba30612e))
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/bfb0997b-fbf6-47c3-a316-c265ba30612e" />
 
-### **Cart & Checkout**
-![Cart Screenshot](https://via.placeholder.com/800x400.png?text=Cart+and+Checkout)
+
 
 ---
 
@@ -67,3 +66,9 @@ The application supports **product listing, cart management, checkout process, u
 ```bash
 git clone https://github.com/your-username/ecommerce-app.git
 cd ecommerce-app
+
+## 📦 website link  
+
+https://earnest-chaja-c7b7f1.netlify.app/
+
+
